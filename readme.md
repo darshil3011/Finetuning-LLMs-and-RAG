@@ -2,7 +2,7 @@
 # Gated LLM
 
 ## Description
-This repository contains four Colab notebooks that provide various functionalities for working with text data. Each notebook focuses on a specific task, as outlined below:
+This repository contains four Colab notebooks that provide various functionalities for working with custom data on LLMs. Each notebook focuses on a specific task, as outlined below:
 
 1. `convert_anything_to_text.ipynb`: This notebook enables the transcription of videos and extraction of text from PDFs and other types of documents. It provides a versatile solution for converting various data formats into raw text.
 
