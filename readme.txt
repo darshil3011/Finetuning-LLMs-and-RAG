@@ -1,6 +1,6 @@
-# GitHub Repository
+#Gated LLM
 
-## Description
+##Description
 This repository contains four Colab notebooks that provide various functionalities for working with text data. Each notebook focuses on a specific task, as outlined below:
 
 1. `convert_anything_to_text.ipynb`: This notebook enables the transcription of videos and extraction of text from PDFs and other types of documents. It provides a versatile solution for converting various data formats into raw text.
@@ -11,9 +11,9 @@ This repository contains four Colab notebooks that provide various functionaliti
 
 4. `falcon_transfer_learning.ipynb`: This notebook focuses on training the Falcon model using Bits and Bytes, Qlora, and PEFT (Promoting Effective Fine-tuning) on custom CSV data, employing transfer learning. It highlights the significance of transfer learning compared to fine-tuning.
 
-## When to Use Fine-tuning vs. Transfer Learning
+##When to Use Fine-tuning vs. Transfer Learning
 
-### Fine-tuning
+###Fine-tuning
 Fine-tuning is a technique used to adapt a pre-trained model to a specific task or domain by training it further on a custom dataset. It is recommended to use fine-tuning in the following scenarios:
 
 1. **Task-specific Data**: When you have a limited amount of data that is relevant to your specific task, fine-tuning allows you to leverage the pre-trained model's knowledge and adapt it to your domain.
@@ -22,7 +22,7 @@ Fine-tuning is a technique used to adapt a pre-trained model to a specific task 
 
 3. **Transfer Learning Insufficiency**: If the pre-trained model's performance is not satisfactory for your task out-of-the-box, fine-tuning offers an opportunity to enhance its capabilities by incorporating task-specific information.
 
-### Transfer Learning
+###Transfer Learning
 Transfer learning involves utilizing knowledge gained from training a model on one task or dataset and applying it to a different but related task or dataset. It is beneficial under the following circumstances:
 
 1. **Limited Data**: When you have a small dataset for your target task, transfer learning allows you to leverage the knowledge acquired from a large dataset used in pre-training, thereby mitigating the data scarcity issue.
