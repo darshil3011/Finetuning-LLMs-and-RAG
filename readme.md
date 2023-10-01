@@ -1,5 +1,5 @@
 
-# Gated LLM
+# Gated LLM with RAG
 
 ## Description
 This repository contains four Colab notebooks that provide various functionalities for working with custom data on LLMs. Each notebook focuses on a specific task, as outlined below:
